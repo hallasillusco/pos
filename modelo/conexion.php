@@ -3,10 +3,11 @@
 class Conexion{
   
   static public function conectar(){
-    $host="localhost";
+    $host="switchback.proxy.rlwy.net";
     $db="pos";
     $userDB="root";
-    $passDB="";
+    $passDB="qEpAkkRgztGhrXyvVHPmXPElubzhDmNE";
+    //$portDB="8080";
     mysql://root:qEpAkkRgztGhrXyvVHPmXPElubzhDmNE@switchback.proxy.rlwy.net:54258/railway
     ///mysql://root:bXghUUpWLcstSJapTdNBYqgozDipggaI@ballast.proxy.rlwy.net:26325/railway
     $link=new PDO("mysql:host=".$host.";"."dbname=".$db, $userDB, $passDB);
