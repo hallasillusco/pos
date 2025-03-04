@@ -18,7 +18,7 @@
   
    static public function conectar(){
        $host="yamabiko.proxy.rlwy.net";
-     $db="pos";
+     $db="railway";
        $userDB="root";
    $passDB="GIqLftZnKUMpBaBXRYwVThdZGlCQaNMH";
          // mysql://root:GIqLftZnKUMpBaBXRYwVThdZGlCQaNMH@yamabiko.proxy.rlwy.net:22759/railway
